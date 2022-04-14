@@ -1,0 +1,23 @@
+.single-element{
+  font-size: 12px;
+}
+.hidden{
+  display: none;
+}
+.posts-container{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.username:hover{
+  cursor: pointer;
+}
+.title{
+  text-align: center;
+}
+
+/* Mobile Styling */
+@media screen and (max-width: 500px) {
+  .posts-container{
+    grid-template-columns: 90%;
+  }
+}
